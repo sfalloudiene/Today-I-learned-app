@@ -56,13 +56,13 @@ loadFacts();
 
 async function loadFacts() {
   const res = await fetch(
-    "https://hwtkikrqvnsrrpkjrytv.supabase.co/rest/v1/facts",
+    "https://anxxrroqnmbbypifecig.supabase.co/rest/v1/facts",
     {
       headers: {
         apikey:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh3dGtpa3Jxdm5zcnJwa2pyeXR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg3NTk3ODUsImV4cCI6MTk4NDMzNTc4NX0.l_PGJRds8Lmg17Pn7eqNwFqYWH4rST2gVlTeGCfKTjk",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFueHhycm9xbm1iYnlwaWZlY2lnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYxMTA5NzAsImV4cCI6MjA1MTY4Njk3MH0.NZK7z59BUNLtgVFotOrlyeb3WT1kYjjPt-wtdVpi9e4",
         authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh3dGtpa3Jxdm5zcnJwa2pyeXR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg3NTk3ODUsImV4cCI6MTk4NDMzNTc4NX0.l_PGJRds8Lmg17Pn7eqNwFqYWH4rST2gVlTeGCfKTjk",
+          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFueHhycm9xbm1iYnlwaWZlY2lnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYxMTA5NzAsImV4cCI6MjA1MTY4Njk3MH0.NZK7z59BUNLtgVFotOrlyeb3WT1kYjjPt-wtdVpi9e4",
       },
     }
   );
